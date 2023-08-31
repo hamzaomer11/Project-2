@@ -13,10 +13,18 @@ body {
     max-width: 750px;
     padding-left: 1rem;
     padding-right: 1rem;
-    width: 100%;
     padding-top: .25rem;
     padding-bottom: .25rem;
-    margin-top: 50px;
+}
+
+@media (min-width: 320px) {
+.container {
+    max-width: 320px;
+}
+}
+
+.container {
+    width: 100%;
 }
 
 .flex {
@@ -31,9 +39,18 @@ body {
     align-items: center;
 }
 
+svg {
+    display: block;
+    vertical-align: middle;
+}
+
 a {
     color: inherit;
     text-decoration: inherit;
+}
+
+.w-16 {
+    width: 4rem;
 }
 
 .text-neutral-400 {
@@ -44,3 +61,34 @@ a {
 .gap-5 {
     gap: 1.25rem;
 }
+
+.fill-current {
+    align-items: start;
+}
+
+.text-white {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255/var(--tw-text-opacity));
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.mt-5 {
+    margin-top: 1.25rem;
+}
+
+.mb-5 {
+    margin-bottom: 1.25rem;
+}
+
+.text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.mb-2 {
+    margin-bottom: .5rem;
+}
+
