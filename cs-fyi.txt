@@ -1,6 +1,0 @@
-Things I've learnt from making cs.fyi:
-
-1. Add multiple classes to on HTML tags.
-2. @media css element to control/enable responsiveness.
-3. containerize all grouped/similar elements with div tags.
-4. Construct HTML tags layer by layer e.g. margin classes, followed by padding etc.
